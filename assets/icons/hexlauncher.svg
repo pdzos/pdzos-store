@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="hexBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E0E12"/>
+      <stop offset="100%" stop-color="#1B1B26"/>
+    </linearGradient>
+    <linearGradient id="neonOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B00"/>
+      <stop offset="100%" stop-color="#FFA800"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#hexBg)" stroke="rgba(255, 107, 0, 0.3)" stroke-width="2"/>
+  <polygon points="64,24 102,46 102,90 64,112 26,90 26,46" stroke="url(#neonOrange)" stroke-width="3" fill="rgba(255, 107, 0, 0.08)"/>
+  <!-- Terminal Prompt >_ -->
+  <path d="M46 54 L58 64 L46 74" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="66" y1="74" x2="82" y2="74" stroke="url(#neonOrange)" stroke-width="4" stroke-linecap="round"/>
+</svg>

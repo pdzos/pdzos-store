@@ -1,0 +1,316 @@
+{
+  "store": {
+    "name": "PDzOS Store",
+    "tagline": "Your Apps. One Store.",
+    "subtitle": "Discover powerful Android apps built by PDzOS.",
+    "developer": "PDzOS",
+    "version": "1.0.0",
+    "badgeThresholds": {
+      "newDays": 45,
+      "updatedDays": 30
+    }
+  },
+  "apps": [
+    {
+      "id": "zyra",
+      "name": "ZYRA",
+      "developer": "PDzOS",
+      "version": "1.2.0",
+      "versionCode": 12,
+      "category": "AI",
+      "description": "A personal AI assistant designed for natural conversations, voice interaction, and smart device routines.",
+      "longDescription": "ZYRA is an ultra-fast, privacy-first personal AI assistant crafted specifically for Android. Built with a responsive local-first engine and cloud intelligence integration, ZYRA handles contextual queries, automated workflow routines, voice notes, and quick device triggers without intrusive telemetry. Experience fluid conversational intelligence wrapped in an adaptive dark futuristic interface.",
+      "icon": "assets/icons/zyra.svg",
+      "screenshots": [
+        "assets/screenshots/zyra-1.svg",
+        "assets/screenshots/zyra-2.svg",
+        "assets/screenshots/zyra-3.svg"
+      ],
+      "size": "28.4 MB",
+      "android": "Android 8.0+",
+      "updated": "2026-09-28",
+      "downloads": 1420,
+      "featured": true,
+      "status": "stable",
+      "downloadUrl": "https://github.com/pdzos/zyra-android/releases/download/v1.2.0/zyra-v1.2.0.apk",
+      "tags": [
+        "AI",
+        "Assistant",
+        "Voice",
+        "Productivity",
+        "Smart Tools"
+      ],
+      "features": [
+        "Instant natural language contextual interactions",
+        "Low-latency voice recognition & speech synthesis",
+        "Offline emergency mode with essential quick tasks",
+        "Zero-tracking strict privacy model for private prompts",
+        "Customizable neural persona and memory presets",
+        "Deep Android system shortcut integrations"
+      ],
+      "whatsNew": [
+        "Optimized voice recognition response time by 40%",
+        "Added custom prompt macro shortcuts for homescreen",
+        "Resolved audio focus ducking issue during background music playback",
+        "Updated Material You dynamic theming palette engine"
+      ],
+      "previousVersions": [
+        {
+          "version": "1.1.0",
+          "date": "2026-08-15",
+          "size": "26.1 MB",
+          "downloadUrl": "https://github.com/pdzos/zyra-android/releases/download/v1.1.0/zyra-v1.1.0.apk"
+        },
+        {
+          "version": "1.0.0",
+          "date": "2026-07-01",
+          "size": "24.8 MB",
+          "downloadUrl": "https://github.com/pdzos/zyra-android/releases/download/v1.0.0/zyra-v1.0.0.apk"
+        }
+      ]
+    },
+    {
+      "id": "winart",
+      "name": "WinArt",
+      "developer": "PDzOS",
+      "version": "2.0.4",
+      "versionCode": 204,
+      "category": "Creative",
+      "description": "Procedural wallpaper engine and vector generative design studio for mobile digital artists.",
+      "longDescription": "WinArt transforms your Android device into a dynamic canvas. Featuring custom mathematical generative algorithms, parametric shaders, and fluid canvas exports, WinArt lets you craft ultra-high-definition wallpapers (up to 4K), geometric vector logos, and generative particle art with zero design friction. Fully interactive live wallpaper engine included with minimal battery impact.",
+      "icon": "assets/icons/winart.svg",
+      "screenshots": [
+        "assets/screenshots/winart-1.svg",
+        "assets/screenshots/winart-2.svg",
+        "assets/screenshots/winart-3.svg"
+      ],
+      "size": "19.8 MB",
+      "android": "Android 9.0+",
+      "updated": "2026-09-22",
+      "downloads": 980,
+      "featured": false,
+      "status": "stable",
+      "downloadUrl": "https://drive.google.com/file/d/1A2B3C4D5E6F7G8H9I0J_EXAMPLE_WINART/view?usp=sharing",
+      "tags": [
+        "Creative",
+        "Wallpapers",
+        "Design",
+        "Generative",
+        "Art"
+      ],
+      "features": [
+        "Over 35 parametric mathematical art generation modes",
+        "4K UHD wallpaper rendering & live wallpaper background engine",
+        "Lossless SVG, PNG, and WebP raster/vector export options",
+        "Custom hex color harmony generator and palette importer",
+        "GPU-accelerated smooth canvas interactions at 120 FPS",
+        "Battery-saving idle freeze when screen turns off"
+      ],
+      "whatsNew": [
+        "Introduced Voronoi crystal lattice algorithm generator",
+        "Added one-tap set as lockscreen & homescreen with parity",
+        "Fixed color gradient banding on AMOLED HDR displays",
+        "Reduced memory footprint when rendering 4K textures"
+      ],
+      "previousVersions": [
+        {
+          "version": "1.9.0",
+          "date": "2026-06-12",
+          "size": "18.2 MB",
+          "downloadUrl": "https://drive.google.com/file/d/1OldWinArtExampleRelease/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "tredmpt",
+      "name": "Tredmpt",
+      "developer": "PDzOS",
+      "version": "1.0.8",
+      "versionCode": 108,
+      "category": "Productivity",
+      "description": "Minimalist flow-state timer, distraction shield, and cognitive habit architecture for builders.",
+      "longDescription": "Tredmpt is designed for people who need pure, uninterrupted focus without gamified clutter. Combining science-backed Pomodoro rhythms, cognitive task chunking, and ambient soundscapes synthesized directly on-device, Tredmpt helps you enter and sustain flow state. It operates entirely offline without an account, saving all session statistics securely to your local phone storage.",
+      "icon": "assets/icons/tredmpt.svg",
+      "screenshots": [
+        "assets/screenshots/tredmpt-1.svg",
+        "assets/screenshots/tredmpt-2.svg",
+        "assets/screenshots/tredmpt-3.svg"
+      ],
+      "size": "14.2 MB",
+      "android": "Android 7.0+",
+      "updated": "2026-09-30",
+      "downloads": 750,
+      "featured": false,
+      "status": "stable",
+      "downloadUrl": "https://github.com/pdzos/tredmpt/releases/download/v1.0.8/tredmpt-v1.0.8.apk",
+      "tags": [
+        "Productivity",
+        "Focus",
+        "Timer",
+        "Habits",
+        "Minimal"
+      ],
+      "features": [
+        "Customizable deep-work interval timer and sprint cycles",
+        "Integrated white, pink, and binaural audio generators (no audio streaming needed)",
+        "App blocking distraction shield during active flow phases",
+        "Daily streak and focus hour heatmaps stored strictly locally",
+        "Minimal black OLED aesthetic with zero distracting animations",
+        "Quick Settings tile and interactive lockscreen timer notifications"
+      ],
+      "whatsNew": [
+        "Added lockscreen live timer notification card",
+        "New brown noise procedural sound synthesizer",
+        "Export your session analytics to CSV or JSON",
+        "Minor UI adjustments for foldables and tablet landscape mode"
+      ],
+      "previousVersions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-01",
+          "size": "13.5 MB",
+          "downloadUrl": "https://github.com/pdzos/tredmpt/releases/download/v1.0.0/tredmpt-v1.0.0.apk"
+        }
+      ]
+    },
+    {
+      "id": "hexlauncher",
+      "name": "HexLauncher",
+      "developer": "PDzOS",
+      "version": "1.0.1",
+      "versionCode": 101,
+      "category": "Launcher",
+      "description": "High-velocity keyboard-driven Android home screen launcher with instant app fuzzy finding.",
+      "longDescription": "HexLauncher strips away home screen chaos. No messy icon grids, no distracting notification dots, no algorithmic feeds. Just an ultra-fast terminal-inspired keyboard and clean typography that launches any app or system action in 2 keystrokes. Built with extreme speed in mind, HexLauncher consumes less than 15 MB of RAM.",
+      "icon": "assets/icons/hexlauncher.svg",
+      "screenshots": [
+        "assets/screenshots/hexlauncher-1.svg",
+        "assets/screenshots/hexlauncher-2.svg",
+        "assets/screenshots/hexlauncher-3.svg"
+      ],
+      "size": "8.6 MB",
+      "android": "Android 8.0+",
+      "updated": "2026-10-01",
+      "downloads": 610,
+      "featured": false,
+      "status": "new",
+      "downloadUrl": "https://github.com/pdzos/hexlauncher/releases/download/v1.0.1/hexlauncher-v1.0.1.apk",
+      "tags": [
+        "Launcher",
+        "Customization",
+        "Minimal",
+        "Fast",
+        "OLED"
+      ],
+      "features": [
+        "Instant keyboard launch upon unlocking your device",
+        "Fuzzy search algorithm that learns your most-used apps",
+        "Customizable gesture shortcuts (swipe down for notifications, swipe up for settings)",
+        "Built-in private calculator and unit converter in search bar",
+        "Pure true-black OLED background with customizable accent colors",
+        "Zero permissions required for internet access"
+      ],
+      "whatsNew": [
+        "Initial public release v1.0.1",
+        "Added support for third-party icon packs",
+        "Optimized gesture detection latency"
+      ],
+      "previousVersions": []
+    },
+    {
+      "id": "devlens",
+      "name": "DevLens",
+      "developer": "PDzOS",
+      "version": "2.1.0-beta",
+      "versionCode": 210,
+      "category": "Tools",
+      "description": "On-device network inspector, packet analyzer, and hardware thermal diagnostics utility.",
+      "longDescription": "DevLens provides Android power users and developers with deep hardware and network telemetry right from their handset. Inspect live socket connections, trace DNS lookups, audit installed APK permissions, and monitor CPU core thermal throttling without requiring root access. Everything runs locally with absolute transparency.",
+      "icon": "assets/icons/devlens.svg",
+      "screenshots": [
+        "assets/screenshots/devlens-1.svg",
+        "assets/screenshots/devlens-2.svg",
+        "assets/screenshots/devlens-3.svg"
+      ],
+      "size": "16.7 MB",
+      "android": "Android 10.0+",
+      "updated": "2026-09-19",
+      "downloads": 430,
+      "featured": false,
+      "status": "beta",
+      "downloadUrl": "https://github.com/pdzos/devlens/releases/download/v2.1.0-beta/devlens-v2.1.0-beta.apk",
+      "tags": [
+        "Tools",
+        "Network",
+        "Diagnostics",
+        "Developer",
+        "System"
+      ],
+      "features": [
+        "Live local packet capture & HTTP header inspection",
+        "Real-time CPU per-core frequency and thermal sensor graphing",
+        "Deep APK manifest explorer and permission risk analyzer",
+        "Ping, Traceroute, and DNS over HTTPS diagnostic tools",
+        "Export diagnostic logs in PCAP and JSON formats",
+        "Floating overlay mode for in-game and app profiling"
+      ],
+      "whatsNew": [
+        "Added TLS 1.3 handshake timing telemetry",
+        "Updated GPU profiling support for Snapdragon 8 Gen series",
+        "Fixed crash on Android 14 notification permission query"
+      ],
+      "previousVersions": [
+        {
+          "version": "2.0.0",
+          "date": "2026-05-10",
+          "size": "15.9 MB",
+          "downloadUrl": "https://github.com/pdzos/devlens/releases/download/v2.0.0/devlens-v2.0.0.apk"
+        }
+      ]
+    },
+    {
+      "id": "neonpulse",
+      "name": "NeonPulse",
+      "developer": "PDzOS",
+      "version": "1.0.0",
+      "versionCode": 100,
+      "category": "Games",
+      "description": "Rhythm-reactive cyberpunk arcade runner with procedural synthwave soundscapes.",
+      "longDescription": "NeonPulse combines retro-futuristic arcade mechanics with dynamic audio synchronization. Navigate through shifting geometric grids, dodge neon obstacles, and trigger harmonic multiplier combos in sync with original synthwave soundtracks created for PDzOS. Supports physical gamepads and high-refresh 144Hz displays.",
+      "icon": "assets/icons/neonpulse.svg",
+      "screenshots": [
+        "assets/screenshots/neonpulse-1.svg",
+        "assets/screenshots/neonpulse-2.svg",
+        "assets/screenshots/neonpulse-3.svg"
+      ],
+      "size": "45.0 MB",
+      "android": "Android 8.0+",
+      "updated": "2026-09-15",
+      "downloads": 890,
+      "featured": false,
+      "status": "new",
+      "downloadUrl": "https://drive.google.com/file/d/1NeonPulseExamplePublicAPK/view?usp=sharing",
+      "tags": [
+        "Games",
+        "Arcade",
+        "Rhythm",
+        "Music",
+        "Cyberpunk"
+      ],
+      "features": [
+        "Dynamic audio spectrum analyzer that alters course geometry",
+        "Original high-fidelity 9-track retrowave soundtrack",
+        "Native support for Bluetooth controllers and high-refresh screens (90/120/144Hz)",
+        "Zero microtransactions, zero banner ads, 100% offline gameplay",
+        "Local leaderboard and ghost replay recording system",
+        "Custom neon skin customization unlocked through gameplay"
+      ],
+      "whatsNew": [
+        "Initial public release v1.0.0",
+        "Added high-refresh rate display toggle",
+        "Full support for Android gamepad mappings"
+      ],
+      "previousVersions": []
+    }
+  ]
+}

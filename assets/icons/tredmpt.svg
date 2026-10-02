@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="tredmptBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B130E"/>
+      <stop offset="100%" stop-color="#14241B"/>
+    </linearGradient>
+    <linearGradient id="zenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FFA3"/>
+      <stop offset="100%" stop-color="#00B8D9"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#tredmptBg)" stroke="rgba(0, 255, 163, 0.3)" stroke-width="2"/>
+  <!-- Focus Enso / Rhythm Arc -->
+  <circle cx="64" cy="64" r="38" stroke="rgba(255,255,255,0.08)" stroke-width="6"/>
+  <path d="M64 26 A38 38 0 1 1 29 78" stroke="url(#zenGrad)" stroke-width="6" stroke-linecap="round"/>
+  <!-- Hourglass / Flow Monogram -->
+  <path d="M52 46 L76 46 L64 64 L76 82 L52 82 L64 64 Z" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round" fill="rgba(0, 255, 163, 0.15)"/>
+  <circle cx="64" cy="64" r="3" fill="#00FFA3"/>
+</svg>

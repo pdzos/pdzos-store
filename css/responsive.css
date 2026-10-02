@@ -1,0 +1,231 @@
+/* ==========================================================================
+   PDzOS STORE — Responsive Design (Mobile-First Optimization)
+   ========================================================================== */
+
+/* Tablet & Smaller Desktops */
+@media (max-width: 1024px) {
+  .featured-card {
+    grid-template-columns: 120px 1fr;
+    gap: 24px;
+  }
+
+  .featured-icon {
+    width: 120px;
+    height: 120px;
+  }
+
+  .featured-actions {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .featured-actions .btn {
+    flex: 1;
+  }
+
+  .detail-content-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+    gap: 36px;
+  }
+}
+
+/* Mobile & Small Tablets */
+@media (max-width: 768px) {
+  :root {
+    --header-height: 64px;
+  }
+
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  /* Header adjustments */
+  .nav-desktop {
+    display: none;
+  }
+
+  .btn-menu-toggle {
+    display: inline-flex;
+  }
+
+  .hero-section {
+    padding: 44px 0 32px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-buttons .btn {
+    width: 100%;
+  }
+
+  /* Featured Card Mobile Stack */
+  .featured-card {
+    grid-template-columns: 1fr;
+    padding: 24px;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .featured-icon {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+  }
+
+  .featured-meta-top,
+  .featured-specs {
+    justify-content: center;
+  }
+
+  .featured-actions {
+    flex-direction: column;
+  }
+
+  /* App Cards Mobile */
+  .apps-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .app-card {
+    padding: 18px;
+  }
+
+  .app-card-icon {
+    width: 56px;
+    height: 56px;
+  }
+
+  .apps-grid.list-view .app-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .apps-grid.list-view .app-card-footer {
+    width: 100%;
+    border-top: 1px solid var(--border-subtle);
+    padding-top: 12px;
+  }
+
+  /* Categories Grid Mobile */
+  .categories-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .category-card {
+    padding: 16px;
+  }
+
+  /* App Details Mobile */
+  .app-detail-hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 24px;
+    gap: 20px;
+  }
+
+  .detail-icon {
+    margin: 0 auto;
+    width: 110px;
+    height: 110px;
+  }
+
+  .detail-title-wrap {
+    justify-content: center;
+  }
+
+  .detail-meta-specs {
+    justify-content: center;
+  }
+
+  .detail-download-col {
+    width: 100%;
+  }
+
+  .detail-download-col .btn {
+    width: 100%;
+  }
+
+  .screenshot-item {
+    flex: 0 0 180px;
+  }
+
+  .features-list {
+    grid-template-columns: 1fr;
+  }
+
+  .lightbox-prev,
+  .lightbox-next {
+    display: none; /* Swipe on mobile */
+  }
+
+  .lightbox-close {
+    top: 10px;
+    right: 10px;
+  }
+
+  /* Filter Bar Mobile */
+  .filter-bar {
+    padding: 14px;
+  }
+
+  .filter-top-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .select-wrap select {
+    width: 100%;
+  }
+
+  .view-toggle-wrap {
+    align-self: flex-end;
+  }
+
+  /* Footer Mobile */
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 14px;
+  }
+}
+
+/* Very Small Devices (<420px) */
+@media (max-width: 420px) {
+  .categories-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .brand-text {
+    font-size: 1.1rem;
+  }
+
+  .brand-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .version-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .version-item .btn {
+    width: 100%;
+  }
+}

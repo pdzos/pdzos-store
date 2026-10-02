@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="winartBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140727"/>
+      <stop offset="100%" stop-color="#2D0B4E"/>
+    </linearGradient>
+    <linearGradient id="artGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF007A"/>
+      <stop offset="50%" stop-color="#7928CA"/>
+      <stop offset="100%" stop-color="#00DFD8"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#winartBg)" stroke="rgba(255, 0, 122, 0.3)" stroke-width="2"/>
+  <!-- Generative overlapping geometric polygons -->
+  <polygon points="64,22 100,84 28,84" stroke="url(#artGrad)" stroke-width="3" fill="none" opacity="0.8"/>
+  <polygon points="64,106 28,44 100,44" stroke="url(#artGrad)" stroke-width="3" fill="none" opacity="0.8"/>
+  <circle cx="64" cy="64" r="20" fill="url(#artGrad)" opacity="0.85"/>
+  <circle cx="64" cy="64" r="8" fill="#FFFFFF"/>
+</svg>
