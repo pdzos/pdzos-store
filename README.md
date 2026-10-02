@@ -12,7 +12,8 @@
 ## ✨ Features
 
 - **Zero-Backend Architecture**: 100% static site deployable directly to Cloudflare Pages, GitHub Pages, or any static web host. No database or paid backend required.
-- **Data-Driven with JSON**: Manage all apps, changelogs, versions, and screenshots simply by editing `data/apps.json`.
+- **Auto-Sync with PdzOS App Update Center**: Automatically detects and loads apps, versions, changelogs, and APK download links directly from your Update Center dashboard (`pdzosupdate`).
+- **Data-Driven with JSON**: Manage all apps, changelogs, versions, and screenshots through the Update Center or simply by editing `data/apps.json`.
 - **Instant Client-Side Search & Filter**: Real-time multi-token search across app names, descriptions, categories, and tags.
 - **External APK Hosting Support**: Direct support for Google Drive public sharing URLs, GitHub Releases, and direct APK HTTPS links.
 - **Dark Mode First**: Clean dark aesthetics with subtle glassmorphism and modern cyan/purple accents, with an instant light-mode toggle.

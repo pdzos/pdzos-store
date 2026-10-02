@@ -60,11 +60,13 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("fetch", (event) => {
   const requestUrl = new URL(event.request.url);
 
-  // 1. NEVER cache APK files or external download links
+  // 1. NEVER cache APK files, external download links, or live Update Center APIs
   if (
     requestUrl.pathname.endsWith(".apk") ||
     requestUrl.hostname.includes("drive.google.com") ||
-    requestUrl.hostname.includes("github.com")
+    requestUrl.hostname.includes("github.com") ||
+    requestUrl.hostname.includes("raw.githubusercontent.com") ||
+    requestUrl.hostname.includes("pdzosupdate.pages.dev")
   ) {
     return; // Pass through to standard browser handling
   }

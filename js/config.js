@@ -18,6 +18,12 @@ const CONFIG = {
   twitterUrl: "",
   contactEmail: "developer@pdzos.local",
 
+  // Live Sync with PdzOS App Update Center
+  syncWithUpdateCenter: true,
+  updateCenterApiUrl: "https://pdzosupdate.pages.dev/api/store",
+  updateCenterRawGithubUrl: "https://raw.githubusercontent.com/pdzos/pdzosupdate/main/apps.json",
+  updateCenterGithubRepoContentsUrl: "https://api.github.com/repos/pdzos/pdzosupdate/contents/apps",
+
   // Badge Logic Thresholds (in days)
   newBadgeDays: 45,       // Apps published within 45 days show 'NEW'
   updatedBadgeDays: 30,   // Apps updated within 30 days show 'UPDATED'
